@@ -9,8 +9,9 @@
             margin: 0;
             padding: 0;
             height: 100%;
+            width: 100%;
             overflow: hidden;
-            font-family: sans-serif;
+            background-color: #000; /* Looks cleaner while loading */
         }
         iframe {
             width: 100%;
@@ -20,6 +21,11 @@
     </style>
 </head>
 <body>
-    <iframe src="https://www.crazygames.com/" title="EducatorsPlace Content"></iframe>
+    <iframe 
+        src="https://playhop.com/" 
+        title="EducatorsPlace"
+        allow="autoplay; fullscreen; keyboard"
+        sandbox="allow-forms allow-scripts allow-same-origin allow-popups allow-presentation">
+    </iframe>
 </body>
 </html>
